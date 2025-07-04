@@ -1,0 +1,140 @@
+.timetable-container {
+    width: 100%;
+    color: black;
+    font-family: Arial, sans-serif;
+}
+
+.title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.grade-section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.p-tabview-nav li.p-highlight {
+    background-color: blue !important; /* Blue */
+    color: red !important;
+    font-weight: bold;
+    border-radius: 0.375rem 0.375rem 0 0;
+}
+
+.grade-section label {
+    margin-right: 10px;
+}
+
+.grade-section select {
+    flex: 1;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #8145e6;
+}
+
+.slots-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.timeslot {
+    width: 10%;
+    height: 60px;
+    border: 1px solid #8145e6;
+    border-radius: 5px;
+}
+.fifth-row .interval-cell {
+    background-color: #d1ecf1; /* Custom color for interval */
+    font-weight: bold;
+    text-align: center;
+}
+
+.interval {
+    text-align: center;
+    margin: 10px 0;
+    background-color: #8145e6;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.save-button {
+    display: block;
+    margin: 20px auto 0;
+    padding: 10px 20px;
+    background-color: #8145e6;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.save-button:hover {
+    background-color: #6c37c9;
+}
+
+.container1{
+    padding: 20px;
+}
+
+.timetable-container {
+
+    border-radius: 20px;
+}
+
+table.timetable {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #8145e6;
+    border-radius: 5px;
+}
+
+table.timetable th, table.timetable td {
+    border: 1px solid #8145e6;
+    border-radius: 5px;
+    text-align: center;
+}
+
+table.timetable th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+    padding: 10px;
+}
+
+
+.dayslots{
+    width: 15%;
+    height: 20px;
+}
+/* Custom class for the dropdown panel to remove transparency */
+/* Custom class for the dropdown panel to remove transparency */
+.no-transparency-dropdown .p-dropdown-panel {
+    background-color: #ffffff !important; /* Solid white background */
+    border: 1px solid #ccc; /* Optional: to add a border around the dropdown */
+}
+
+/* Ensure the dropdown button itself has no transparency */
+.p-dropdown {
+    background-color: white !important; /* Ensures the dropdown button is not transparent */
+}
+
+/* Ensure dropdown options also have no transparency */
+.p-dropdown-item {
+    background-color: #ffffff !important; /* Solid white background for dropdown items */
+    color: black !important; /* Text color */
+}
+
+/* Optional: Ensures the selected item also has no transparency */
+.p-dropdown-label {
+    background-color: white !important; /* No transparency for the selected value */
+}
+
+/* Optional: Style the dropdown arrow */
+.p-dropdown .p-dropdown-icon {
+    color: #8145e6 !important; /* Customize the arrow color */
+}
+
